@@ -87,6 +87,7 @@ Desconto: 0.0%
 Pedido código 1309
 Valor total: R$ 115.90
 ```
+![image](https://github.com/user-attachments/assets/4bb5ba01-9004-4e78-9fc3-b99cb1af642b)
 
 ---
 
@@ -109,7 +110,7 @@ Cada serviço é anotado com `@Service`, permitindo a **injeção de dependênci
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java 17+ (ou versão compatível com seu ambiente)
+- Java 21+ (ou versão compatível com seu ambiente)
 - Spring Boot
 - Maven ou Gradle (como gerenciador de dependência)
 - IntelliJ IDEA ou Spring Tool Suite (STS)
