@@ -2,6 +2,7 @@ package com.devsuperior.order;
 
 import com.devsuperior.order.entities.Order;
 import com.devsuperior.order.services.OrderService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,11 +13,13 @@ import java.util.Scanner;
 @SpringBootApplication
 public class OrderApplication  implements CommandLineRunner {
 
-	private final OrderService orderService;
+	@Autowired
+	private OrderService orderService;
 
-	public OrderApplication(OrderService orderService) {
-		this.orderService = orderService;
-	}
+//--Injeção de dependencia manual
+//	public OrderApplication(OrderService orderService) {
+//		this.orderService = orderService;
+//	}
 
 	public static void main(String[] args) {
 
