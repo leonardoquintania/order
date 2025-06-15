@@ -110,7 +110,7 @@ Cada serviço é anotado com `@Service`, permitindo a **injeção de dependênci
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java 17+ (ou versão compatível com seu ambiente)
+- Java 21+ (ou versão compatível com seu ambiente)
 - Spring Boot
 - Maven ou Gradle (como gerenciador de dependência)
 - IntelliJ IDEA ou Spring Tool Suite (STS)
